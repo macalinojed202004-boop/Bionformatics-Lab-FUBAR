@@ -1,0 +1,870 @@
+Last login: Wed Oct 29 05:20:17 on ttys000
+(base) fred@192 Downloads % hyphy i-
+Error:
+Could not read batch file '/Users/fred/Downloads/i-'.
+Path stack:
+	/opt/anaconda3/share/hyphy/
+	/Users/fred/Downloads/
+Check errors.log for execution error details.
+(base) fred@192 Downloads % conda activate /opt/miniconda3/envs/paml_env
+(paml_env) fred@192 Downloads % cd ~/Downloads
+(paml_env) fred@192 Downloads % conda config --add channels conda-forge
+Warning: 'conda-forge' already in 'channels' list, moving to the top
+(paml_env) fred@192 Downloads % conda config --add channels bioconda 
+Warning: 'bioconda' already in 'channels' list, moving to the top
+(paml_env) fred@192 Downloads % conda config --set channel_priority strict 
+(paml_env) fred@192 Downloads % conda install hyphy
+2 channel Terms of Service accepted
+Channels:
+ - bioconda
+ - conda-forge
+ - defaults
+Platform: osx-arm64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.7.0
+    latest version: 25.9.1
+Please update conda by running
+    $ conda update -n base -c conda-forge conda
+# All requested packages already installed.
+(paml_env) fred@192 Downloads % hyphy i-
+Error:
+Could not read batch file '/Users/fred/Downloads/i-'.
+Path stack:
+	/opt/miniconda3/envs/paml_env/share/hyphy/
+	/Users/fred/Downloads/
+Check errors.log for execution error details.
+(paml_env) fred@192 Downloads % hyphy -i
+HYPHY 2.5.84(MP) for Darwin on arm64 ARM Neon SIMD zlib (v1.3.1)
+***************** TYPES OF STANDARD ANALYSES *****************
+	(1) Selection Analyses
+	(2) Evolutionary Hypothesis Testing
+	(3) Relative evolutionary rate inference
+	(4) Coevolutionary analysis
+	(5) Basic Analyses
+	(6) Codon Selection Analyses
+	(7) Compartmentalization
+	(8) Data File Tools
+	(9) Tree File Tools
+	(10) Miscellaneous
+	(11) Model Comparison
+	(12) Molecular Clock
+	(13) Phylogeny Reconstruction
+	(14) Positive Selection
+	(15) Recombination
+	(16) Selection/Recombination
+	(17) Relative Rate
+	(18) Relative Ratio
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):1
+***************** FILES IN 'Selection Analyses' ***************** 
+	(1) [MEME] Test for episodic site-level selection using MEME (Mixed Effects Model of Evolution).
+	(2) [FEL] Test for pervasive site-level selection using FEL (Fixed Effects Likelihood).
+	(3) [SLAC] Test for pervasive site-level selection using SLAC (Single Likelihood Ancestor Counting).
+	(4) [FUBAR] Test for pervasive site-level selection using FUBAR (FasLast login: Wed Oct 29 05:20:17 on ttys000
+(base) fred@192 Downloads % hyphy i-
+Error:
+Could not read batch file '/Users/fred/Downloads/i-'.
+Path stack:
+	/opt/anaconda3/share/hyphy/
+	/Users/fred/Downloads/
+Check errors.log for execution error details.
+(base) fred@192 Downloads % conda activate /opt/miniconda3/envs/paml_env
+(paml_env) fred@192 Downloads % cd ~/Downloads
+(paml_env) fred@192 Downloads % conda config --add channels conda-forge
+Warning: 'conda-forge' already in 'channels' list, moving to the top
+(paml_env) fred@192 Downloads % conda config --add channels bioconda 
+Warning: 'bioconda' already in 'channels' list, moving to the top
+(paml_env) fred@192 Downloads % conda config --set channel_priority strict 
+(paml_env) fred@192 Downloads % conda install hyphy
+2 channel Terms of Service accepted
+Channels:
+ - bioconda
+ - conda-forge
+ - defaults
+Platform: osx-arm64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.7.0
+    latest version: 25.9.1
+Please update conda by running
+    $ conda update -n base -c conda-forge conda
+# All requested packages already installed.
+(paml_env) fred@192 Downloads % hyphy i-
+Error:
+Could not read batch file '/Users/fred/Downloads/i-'.
+Path stack:
+	/opt/miniconda3/envs/paml_env/share/hyphy/
+	/Users/fred/Downloads/
+Check errors.log for execution error details.
+(paml_env) fred@192 Downloads % hyphy -i
+HYPHY 2.5.84(MP) for Darwin on arm64 ARM Neon SIMD zlib (v1.3.1)
+***************** TYPES OF STANDARD ANALYSES *****************
+	(1) Selection Analyses
+	(2) Evolutionary Hypothesis Testing
+	(3) Relative evolutionary rate inference
+	(4) Coevolutionary analysis
+	(5) Basic Analyses
+	(6) Codon Selection Analyses
+	(7) Compartmentalization
+	(8) Data File Tools
+	(9) Tree File Tools
+	(10) Miscellaneous
+	(11) Model Comparison
+	(12) Molecular Clock
+	(13) Phylogeny Reconstruction
+	(14) Positive Selection
+	(15) Recombination
+	(16) Selection/Recombination
+	(17) Relative Rate
+	(18) Relative Ratio
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):1
+***************** FILES IN 'Selection Analyses' ***************** 
+	(1) [MEME] Test for episodic site-level selection using MEME (Mixed Effects Model of Evolution).
+	(2) [FEL] Test for pervasive site-level selection using FEL (Fixed Effects Likelihood).
+	(3) [SLAC] Test for pervasive site-level selection using SLAC (Single Likelihood Ancestor Counting).
+	(4) [FUBAR] Test for pervasive site-level selection using FUBAR (Fast Unconstrained Bayesian AppRoximation for inferring selection).
+	(5) [BUSTED] Test for episodic gene-wide selection using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+	(6) [aBSREL] Test for lineage-specific evolution using the branch-site method aBS-REL (Adaptive Branch-Site Random Effects Likelihood).
+	(7) [RELAX] Test for relaxation of selection pressure along a specified set of test branches using RELAX (a random effects test of selection relaxation).
+	(8) [FADE] Test a protein alignment for directional selection towards specific amino acids along a specified set of test branches using FADE (a FUBAR Approach to Directional Evolution).
+	(9) [PRIME] 
+	(10) [Error-Filter] Use a BUSTED-E model fit to clean-up a sequence alignment
+	(11)  "[MSS] Fits a model with multiple synonymous rates (MSS model) to several genes jointly."
+	(12)  "[MSS-GA] Perform a Genetic Algorithm search model selection for a codon MSS model on a collection of alignments."
+	(13)  "[MSS-GA-processor] Process results for a genetic algorithm codon MSS model search."
+	(14) [BUSTED-PH] Test if episodic diversifying selection is associated with the set of designated (FG) branches using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+ Please select the analysis you would like to perform (or press ENTER to return to the list of analysis types):4
+Analysis Description
+--------------------
+Perform a Fast Unbiased AppRoximate Bayesian (FUBAR) analysis of a
+coding sequence alignment to determine whether some sites have been
+will also exist FUBAR-generated files
+/home/sergei/FUBAR/data/pol.nex.FUBAR.json,
+/home/sergei/FUBAR/data/pol.nex.fubrar.cache. They also provide
+checkpointing so that a partially completed analysis can be restarted.
+subject to pervasive purifying or diversifying selection. v2.1
+introduces two more methods for estimating the posterior distribution of
+grid weights: collapsed Gibbs MCMC (faster) and 0-th order Variation
+Bayes approximation (fastest). Please note that a FUBAR analysis
+generates a cache and a results JSON file in the same directory as
+directory as the original alignment. HyPhy needs to have write
+privileges to this directory. For example if the original file is in
+/home/sergei/FUBAR/data/pol.nex then at the end of a FUBAR run, there
+- __Requirements__: in-frame codon alignment (possibly partitioned) and a phylogenetic tree
+(one per partition)
+- __Citation__: FUBAR: a fast, unconstrained bayesian approximation for inferring
+selection (2013), Mol Biol Evol. 30(5):1196-205
+- __Written by__: Sergei L Kosakovsky Pond
+- __Contact Information__: spond@temple.edu
+- __Analysis Version__: 2.2
+####Choose Genetic Code
+1. [**Universal**] Universal code. (Genebank transl_table=1).
+2. [**Vertebrate-mtDNA**] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+3. [**Yeast-mtDNA**] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+4. [**Mold-Protozoan-mtDNA**] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+5. [**Invertebrate-mtDNA**] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+6. [**Ciliate-Nuclear**] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+7. [**Echinoderm-mtDNA**] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+8. [**Euplotid-Nuclear**] Euplotid Nuclear code. (Genebank transl_table=10).
+9. [**Alt-Yeast-Nuclear**] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+10. [**Ascidian-mtDNA**] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+11. [**Flatworm-mtDNA**] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+12. [**Blepharisma-Nuclear**] Blepharisma Nuclear code. (Genebank transl_table=15).
+13. [**Chlorophycean-mtDNA**] Chlorophycean Mitochondrial Code (transl_table=16).
+14. [**Trematode-mtDNA**] Trematode Mitochondrial Code (transl_table=21).
+15. [**Scenedesmus-obliquus-mtDNA**] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+16. [**Thraustochytrium-mtDNA**] Thraustochytrium Mitochondrial Code (transl_table=23).
+17. [**Pterobranchia-mtDNA**] Pterobranchia Mitochondrial Code (transl_table=24).
+18. [**SR1-and-Gracilibacteria**] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+19. [**Pachysolen-Nuclear**] Pachysolen tannophilus Nuclear Code (transl_table=26).
+20. [**Mesodinium-Nuclear**] Mesodinium Nuclear Code (transl_table=29)
+21. [**Peritrich-Nuclear**] Peritrich Nuclear Code (transl_table=30)
+22. [**Cephalodiscidae-mtDNA**] Cephalodiscidae Mitochondrial UAA-Tyr Code (transl_table=33)
+>Please choose an option (or press q to cancel selection):1
+>Select a coding sequence alignment file (`/Users/fred/Downloads/`) N2_master_TRIMMED.fas
+-------
+>[WARNING] '/Users/fred/Downloads/N2_master_TRIMMED.fas' contains 1
+duplicate sequence. Identical sequences do not contribute any
+information to the analysis and only slow down computation. Please
+consider removing duplicate or 'nearly' duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+>Please select a tree file for the data: (`/Users/fred/Downloads/`) N2_FINAL.tree
+/Users/fred/Downloads/N2_FINAL.tree
+N2_FINAL.tree
+>Loaded a multiple sequence alignment with **620** sequences, **1238** codons, and **1** partitions from `/Users/fred/Downloads/N2_master_TRIMMED.fas`
+Save FUBAR cache to : FUBAR_N2_cache
+>Save the resulting JSON file to (`/Users/fred/Downloads/`) FUBAR_results.json
+> FUBAR will write cache and result files to _/Users/fred/Downloads/N2_master_TRIMMED.fas.FUBAR.cache_ and _/Users/fred/Downloads/N2_master_TRIMMED.fas.FUBAR.json_, respectively 
+> Number of grid points per dimension (total number is D^2) (permissible range = [5,50], default value = 20, integer): 20
+####Posterior estimation method
+1. [**Metropolis-Hastings**] Full Metropolis-Hastings MCMC algorithm (slowest, original 2013 paper implementation)
+2. [**Collapsed-Gibbs**] Collapsed Gibbs sampler (intermediate speed)
+3. [**Variational-Bayes**] 0-th order Variational Bayes approximations (fastest, recommended default)
+>Please choose an option (or press q to cancel selection):3
+> The concentration parameter of the Dirichlet prior (permissible range = [0.001,1], default value = 0.5): 0.5
+####Enforce non-zero synonymous rates on the grid
+1. [**Yes**] The grid will exclude zero synonymous rates, resulting in finite dN/dS values
+2. [**No**] The grid will include zero synonymous rates, resulting in infinite dN/dS values
+>Please choose an option (or press q to cancel selection):1
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+>Use/Save parameter estimates from 'initial-guess' model fits (`/Users/fred/Downloads/`) null
+####Reduce zero-length branches
+1. [**Yes**] Automatically delete internal zero-length branches for computational efficiency (will not affect results otherwise)
+2. [**Constrain**] Keep zero-length branches, but constrain their values to 0
+3. [**No**] Keep all branches
+>Please choose an option (or press q to cancel selection):1
+### Deleted 106 zero-length internal branches: `Node1, Node1003, Node103, Node1041, Node108, Node1080, Node1083, Node1088, Node1112, Node1118, Node112, Node1121, Node1124, Node1125, Node1130, Node1182, Node1191, Node1201, Node1203, Node1206, Node1208, Node128, Node145, Node152, Node155, Node162, Node163, Node168, Node179, Node194, Node199, Node202, Node206, Node237, Node238, Node239, Node270, Node274, Node278, Node282, Node303, Node361, Node370, Node375, Node414, Node418, Node434, Node444, Node446, Node462, Node467, Node472, Node473, Node480, Node484, Node488, Node501, Node556, Node558, Node563, Node581, Node583, Node592, Node594, Node595, Node596, Node611, Node64, Node642, Node679, Node709, Node715, Node716, Node721, Node729, Node734, Node737, Node738, Node739, Node740, Node748, Node750, Node756, Node757, Node763, Node771, Node804, Node810, Node853, Node887, Node89, Node90, Node912, Node932, Node933, Node94, Node947, Node95, Node952, Node954, Node956, Node96, Node969, Node97, Node99, Node998`
+* Log(L) = -78293.82, AIC-c = 159078.99 (1245 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site) 43.867
+* Tree length (expected substitutions/site) for partition 1 :   43.867
+### Computing the phylogenetic likelihood function on the grid 
+* Determining appropriate tree scaling based on the best score from a  20 x 20 rate grid
+* Best scaling achieved for 
+	* synonymous rate =  2.815
+	* non-synonymous rate =  0.500
+* Computing conditional site likelihoods on a 20 x 20 rate grid
+### Running an iterative zeroth order variational Bayes procedure to estimate the posterior mean of rate weights
+* Using the following settings
+	* Dirichlet alpha  : 0.5
+### Tabulating site-level results
+----
+## FUBAR inferred no sites under subject to positive selection at posterior probability >= 0.9
+(paml_env) fred@192 Downloads % 
+
+Last login: Wed Oct 29 05:20:17 on ttys000
+(base) fred@192 Downloads % hyphy i-
+Error:
+Could not read batch file '/Users/fred/Downloads/i-'.
+Path stack:
+	/opt/anaconda3/share/hyphy/
+	/Users/fred/Downloads/
+Check errors.log for execution error details.
+(base) fred@192 Downloads % conda activate /opt/miniconda3/envs/paml_env
+(paml_env) fred@192 Downloads % cd ~/Downloads
+(paml_env) fred@192 Downloads % conda config --add channels conda-forge
+Warning: 'conda-forge' already in 'channels' list, moving to the top
+(paml_env) fred@192 Downloads % conda config --add channels bioconda 
+Warning: 'bioconda' already in 'channels' list, moving to the top
+(paml_env) fred@192 Downloads % conda config --set channel_priority strict 
+(paml_env) fred@192 Downloads % conda install hyphy
+2 channel Terms of Service accepted
+Channels:
+ - bioconda
+ - conda-forge
+ - defaults
+Platform: osx-arm64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.7.0
+    latest version: 25.9.1
+Please update conda by running
+    $ conda update -n base -c conda-forge conda
+# All requested packages already installed.
+(paml_env) fred@192 Downloads % hyphy i-
+Error:
+Could not read batch file '/Users/fred/Downloads/i-'.
+Path stack:
+	/opt/miniconda3/envs/paml_env/share/hyphy/
+	/Users/fred/Downloads/
+Check errors.log for execution error details.
+(paml_env) fred@192 Downloads % hyphy -i
+HYPHY 2.5.84(MP) for Darwin on arm64 ARM Neon SIMD zlib (v1.3.1)
+***************** TYPES OF STANDARD ANALYSES *****************
+	(1) Selection Analyses
+	(2) Evolutionary Hypothesis Testing
+	(3) Relative evolutionary rate inference
+	(4) Coevolutionary analysis
+	(5) Basic Analyses
+	(6) Codon Selection Analyses
+	(7) Compartmentalization
+	(8) Data File Tools
+	(9) Tree File Tools
+	(10) Miscellaneous
+	(11) Model Comparison
+	(12) Molecular Clock
+	(13) Phylogeny Reconstruction
+	(14) Positive Selection
+	(15) Recombination
+	(16) Selection/Recombination
+	(17) Relative Rate
+	(18) Relative Ratio
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):1
+***************** FILES IN 'Selection Analyses' ***************** 
+	(1) [MEME] Test for episodic site-level selection using MEME (Mixed Effects Model of Evolution).
+	(2) [FEL] Test for pervasive site-level selection using FEL (Fixed Effects Likelihood).
+	(3) [SLAC] Test for pervasive site-level selection using SLAC (Single Likelihood Ancestor Counting).
+	(4) [FUBAR] Test for pervasive site-level selection using FUBAR (Fast Unconstrained Bayesian AppRoximation for inferring selection).
+	(5) [BUSTED] Test for episodic gene-wide selection using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+	(6) [aBSREL] Test for lineage-specific evolution using the branch-site method aBS-REL (Adaptive Branch-Site Random Effects Likelihood).
+	(7) [RELAX] Test for relaxation of selection pressure along a specified set of test branches using RELAX (a random effects test of selection relaxation).
+	(8) [FADE] Test a protein alignment for directional selection towards specific amino acids along a specified set of test branches using FADE (a FUBAR Approach to Directional Evolution).
+	(9) [PRIME] 
+	(10) [Error-Filter] Use a BUSTED-E model fit to clean-up a sequence alignment
+	(11)  "[MSS] Fits a model with multiple synonymous rates (MSS model) to several genes jointly."
+	(12)  "[MSS-GA] Perform a Genetic Algorithm search model selection for a codon MSS model on a collection of alignments."
+	(13)  "[MSS-GA-processor] Process results for a genetic algorithm codon MSS model search."
+	(14) [BUSTED-PH] Test if episodic diversifying selection is associated with the set of designated (FG) branches using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+ Please select the analysis you would like to perform (or press ENTER to return to the list of analysis types):4
+Analysis Description
+--------------------
+Perform a Fast Unbiased AppRoximate Bayesian (FUBAR) analysis of a
+coding sequence alignment to determine whether some sites have been
+will also exist FUBAR-generated files
+/home/sergei/FUBAR/data/pol.nex.FUBAR.json,
+/home/sergei/FUBAR/data/pol.nex.fubrar.cache. They also provide
+checkpointing so that a partially completed analysis can be restarted.
+subject to pervasive purifying or diversifying selection. v2.1
+introduces two more methods for estimating the posterior distribution of
+grid weights: collapsed Gibbs MCMC (faster) and 0-th order Variation
+Bayes approximation (fastest). Please note that a FUBAR analysis
+generates a cache and a results JSON file in the same directory as
+directory as the original alignment. HyPhy needs to have write
+privileges to this directory. For example if the original file is in
+/home/sergei/FUBAR/data/pol.nex then at the end of a FUBAR run, there
+- __Requirements__: in-frame codon alignment (possibly partitioned) and a phylogenetic tree
+(one per partition)
+- __Citation__: FUBAR: a fast, unconstrained bayesian approximation for inferring
+selection (2013), Mol Biol Evol. 30(5):1196-205
+- __Written by__: Sergei L Kosakovsky Pond
+- __Contact Information__: spond@temple.edu
+- __Analysis Version__: 2.2
+####Choose Genetic Code
+1. [**Universal**] Universal code. (Genebank transl_table=1).
+2. [**Vertebrate-mtDNA**] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+3. [**Yeast-mtDNA**] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+4. [**Mold-Protozoan-mtDNA**] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+5. [**Invertebrate-mtDNA**] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+6. [**Ciliate-Nuclear**] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+7. [**Echinoderm-mtDNA**] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+8. [**Euplotid-Nuclear**] Euplotid Nuclear code. (Genebank transl_table=10).
+9. [**Alt-Yeast-Nuclear**] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+10. [**Ascidian-mtDNA**] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+11. [**Flatworm-mtDNA**] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+12. [**Blepharisma-Nuclear**] Blepharisma Nuclear code. (Genebank transl_table=15).
+13. [**Chlorophycean-mtDNA**] Chlorophycean Mitochondrial Code (transl_table=16).
+14. [**Trematode-mtDNA**] Trematode Mitochondrial Code (transl_table=21).
+15. [**Scenedesmus-obliquus-mtDNA**] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+16. [**Thraustochytrium-mtDNA**] Thraustochytrium Mitochondrial Code (transl_table=23).
+17. [**Pterobranchia-mtDNA**] Pterobranchia Mitochondrial Code (transl_table=24).
+18. [**SR1-and-Gracilibacteria**] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+19. [**Pachysolen-Nuclear**] Pachysolen tannophilus Nuclear Code (transl_table=26).
+20. [**Mesodinium-Nuclear**] Mesodinium Nuclear Code (transl_table=29)
+21. [**Peritrich-Nuclear**] Peritrich Nuclear Code (transl_table=30)
+22. [**Cephalodiscidae-mtDNA**] Cephalodiscidae Mitochondrial UAA-Tyr Code (transl_table=33)
+>Please choose an option (or press q to cancel selection):1
+>Select a coding sequence alignment file (`/Users/fred/Downloads/`) N2_master_TRIMMED.fas
+-------
+>[WARNING] '/Users/fred/Downloads/N2_master_TRIMMED.fas' contains 1
+duplicate sequence. Identical sequences do not contribute any
+information to the analysis and only slow down computation. Please
+consider removing duplicate or 'nearly' duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+>Please select a tree file for the data: (`/Users/fred/Downloads/`) N2_FINAL.tree
+/Users/fred/Downloads/N2_FINAL.tree
+N2_FINAL.tree
+>Loaded a multiple sequence alignment with **620** sequences, **1238** codons, and **1** partitions from `/Users/fred/Downloads/N2_master_TRIMMED.fas`
+Save FUBAR cache to : FUBAR_N2_cache
+>Save the resulting JSON file to (`/Users/fred/Downloads/`) FUBAR_results.json
+> FUBAR will write cache and result files to _/Users/fred/Downloads/N2_master_TRIMMED.fas.FUBAR.cache_ and _/Users/fred/Downloads/N2_master_TRIMMED.fas.FUBAR.json_, respectively 
+> Number of grid points per dimension (total number is D^2) (permissible range = [5,50], default value = 20, integer): 20
+####Posterior estimation method
+1. [**Metropolis-Hastings**] Full Metropolis-Hastings MCMC algorithm (slowest, original 2013 paper implementation)
+2. [**Collapsed-Gibbs**] Collapsed Gibbs sampler (intermediate speed)
+3. [**Variational-Bayes**] 0-th order Variational Bayes approximations (fastest, recommended default)
+>Please choose an option (or press q to cancel selection):3
+> The concentration parameter of the Dirichlet prior (permissible range = [0.001,1], default value = 0.5): 0.5
+####Enforce non-zero synonymous rates on the grid
+1. [**Yes**] The grid will exclude zero synonymous rates, resulting in finite dN/dS values
+2. [**No**] The grid will include zero synonymous rates, resulting in infinite dN/dS values
+>Please choose an option (or press q to cancel selection):1
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+>Use/Save parameter estimates from 'initial-guess' model fits (`/Users/fred/Downloads/`) null
+####Reduce zero-length branches
+1. [**Yes**] Automatically delete internal zero-length branches for computational efficiency (will not affect results otherwise)
+2. [**Constrain**] Keep zero-length branches, but constrain their values to 0
+3. [**No**] Keep all branches
+>Please choose an option (or press q to cancel selection):1
+### Deleted 106 zero-length internal branches: `Node1, Node1003, Node103, Node1041, Node108, Node1080, Node1083, Node1088, Node1112, Node1118, Node112, Node1121, Node1124, Node1125, Node1130, Node1182, Node1191, Node1201, Node1203, Node1206, Node1208, Node128, Node145, Node152, Node155, Node162, Node163, Node168, Node179, Node194, Node199, Node202, Node206, Node237, Node238, Node239, Node270, Node274, Node278, Node282, Node303, Node361, Node370, Node375, Node414, Node418, Node434, Node444, Node446, Node462, Node467, Node472, Node473, Node480, Node484, Node488, Node501, Node556, Node558, Node563, Node581, Node583, Node592, Node594, Node595, Node596, Node611, Node64, Node642, Node679, Node709, Node715, Node716, Node721, Node729, Node734, Node737, Node738, Node739, Node740, Node748, Node750, Node756, Node757, Node763, Node771, Node804, Node810, Node853, Node887, Node89, Node90, Node912, Node932, Node933, Node94, Node947, Node95, Node952, Node954, Node956, Node96, Node969, Node97, Node99, Node998`
+* Log(L) = -78293.82, AIC-c = 159078.99 (1245 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site) 43.867
+* Tree length (expected substitutions/site) for partition 1 :   43.867
+### Computing the phylogenetic likelihood function on the grid 
+* Determining appropriate tree scaling based on the best score from a  20 x 20 rate grid
+* Best scaling achieved for 
+	* synonymous rate =  2.815
+	* non-synonymous rate =  0.500
+* Computing conditional site likelihoods on a 20 x 20 rate grid
+### Running an iterative zeroth order variational Bayes procedure to estimate the posterior mean of rate weights
+* Using the following settings
+	* Dirichlet alpha  : 0.5
+### Tabulating site-level results
+----
+## FUBAR inferred no sites under subject to positive selection at posterior probability >= 0.9
+(paml_env) fred@192 Downloads % 
+
+t Unconstrained Bayesian AppRoximation for inferring selection).
+	(5) [BUSTED] Test for episodic gene-wide selection using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+	(6) [aBSREL] Test for lineage-specific evolution using the branch-site method aBS-REL (Adaptive Branch-Site Random Effects Likelihood).
+	(7) [RELAX] Test for relaxation of selection pressure along a specified set of test branches using RELAX (a random effects test of selection relaxation).
+	(8) [FADE] Test a protein alignment for directional selection towards specific amino acids along a specified set of test branches using FADE (a FUBAR Approach to Directional Evolution).
+	(9) [PRIME] 
+	(10) [Error-Filter] Use a BUSTED-E model fit to clean-up a sequence alignment
+	(11)  "[MSS] Fits a model with multiple synonymous rates (MSS model) to several genes jointly."
+	(12)  "[MSS-GA] Perform a Genetic Algorithm search model selection for a codon MSS model on a collection of alignments."
+	(13)  "[MSS-GA-processor] Process results for a genetic algorithm codon MSS model search."
+	(14) [BUSTED-PH] Test if episodic diversifying selection is associated with the set of designated (FG) branches using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+ Please select the analysis you would like to perform (or press ENTER to return to the list of analysis types):4
+Analysis Description
+--------------------
+Perform a Fast Unbiased AppRoximate Bayesian (FUBAR) analysis of a
+coding sequence alignment to determine whether some sites have been
+will also exist FUBAR-generated filLast login: Wed Oct 29 05:20:17 on ttys000
+(base) fred@192 Downloads % hyphy i-
+Error:
+Could not read batch file '/Users/fred/Downloads/i-'.
+Path stack:
+	/opt/anaconda3/share/hyphy/
+	/Users/fred/Downloads/
+Check errors.log for execution error details.
+(base) fred@192 Downloads % conda activate /opt/miniconda3/envs/paml_env
+(paml_env) fred@192 Downloads % cd ~/Downloads
+(paml_env) fred@192 Downloads % conda config --add channels conda-forge
+Warning: 'conda-forge' already in 'channels' list, moving to the top
+(paml_env) fred@192 Downloads % conda config --add channels bioconda 
+Warning: 'bioconda' already in 'channels' list, moving to the top
+(paml_env) fred@192 Downloads % conda config --set channel_priority strict 
+(paml_env) fred@192 Downloads % conda install hyphy
+2 channel Terms of Service accepted
+Channels:
+ - bioconda
+ - conda-forge
+ - defaults
+Platform: osx-arm64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.7.0
+    latest version: 25.9.1
+Please update conda by running
+    $ conda update -n base -c conda-forge conda
+# All requested packages already installed.
+(paml_env) fred@192 Downloads % hyphy i-
+Error:
+Could not read batch file '/Users/fred/Downloads/i-'.
+Path stack:
+	/opt/miniconda3/envs/paml_env/share/hyphy/
+	/Users/fred/Downloads/
+Check errors.log for execution error details.
+(paml_env) fred@192 Downloads % hyphy -i
+HYPHY 2.5.84(MP) for Darwin on arm64 ARM Neon SIMD zlib (v1.3.1)
+***************** TYPES OF STANDARD ANALYSES *****************
+	(1) Selection Analyses
+	(2) Evolutionary Hypothesis Testing
+	(3) Relative evolutionary rate inference
+	(4) Coevolutionary analysis
+	(5) Basic Analyses
+	(6) Codon Selection Analyses
+	(7) Compartmentalization
+	(8) Data File Tools
+	(9) Tree File Tools
+	(10) Miscellaneous
+	(11) Model Comparison
+	(12) Molecular Clock
+	(13) Phylogeny Reconstruction
+	(14) Positive Selection
+	(15) Recombination
+	(16) Selection/Recombination
+	(17) Relative Rate
+	(18) Relative Ratio
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):1
+***************** FILES IN 'Selection Analyses' ***************** 
+	(1) [MEME] Test for episodic site-level selection using MEME (Mixed Effects Model of Evolution).
+	(2) [FEL] Test for pervasive site-level selection using FEL (Fixed Effects Likelihood).
+	(3) [SLAC] Test for pervasive site-level selection using SLAC (Single Likelihood Ancestor Counting).
+	(4) [FUBAR] Test for pervasive site-level selection using FUBAR (Fast Unconstrained Bayesian AppRoximation for inferring selection).
+	(5) [BUSTED] Test for episodic gene-wide selection using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+	(6) [aBSREL] Test for lineage-specific evolution using the branch-site method aBS-REL (Adaptive Branch-Site Random Effects Likelihood).
+	(7) [RELAX] Test for relaxation of selection pressure along a specified set of test branches using RELAX (a random effects test of selection relaxation).
+	(8) [FADE] Test a protein alignment for directional selection towards specific amino acids along a specified set of test branches using FADE (a FUBAR Approach to Directional Evolution).
+	(9) [PRIME] 
+	(10) [Error-Filter] Use a BUSTED-E model fit to clean-up a sequence alignment
+	(11)  "[MSS] Fits a model with multiple synonymous rates (MSS model) to several genes jointly."
+	(12)  "[MSS-GA] Perform a Genetic Algorithm search model selection for a codon MSS model on a collection of alignments."
+	(13)  "[MSS-GA-processor] Process results for a genetic algorithm codon MSS model search."
+	(14) [BUSTED-PH] Test if episodic diversifying selection is associated with the set of designated (FG) branches using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+ Please select the analysis you would like to perform (or press ENTER to return to the list of analysis types):4
+Analysis Description
+--------------------
+Perform a Fast Unbiased AppRoximate Bayesian (FUBAR) analysis of a
+coding sequence alignment to determine whether some sites have been
+will also exist FUBAR-generated files
+/home/sergei/FUBAR/data/pol.nex.FUBAR.json,
+/home/sergei/FUBAR/data/pol.nex.fubrar.cache. They also provide
+checkpointing so that a partially completed analysis can be restarted.
+subject to pervasive purifying or diversifying selection. v2.1
+introduces two more methods for estimating the posterior distribution of
+grid weights: collapsed Gibbs MCMC (faster) and 0-th order Variation
+Bayes approximation (fastest). Please note that a FUBAR analysis
+generates a cache and a results JSON file in the same directory as
+directory as the original alignment. HyPhy needs to have write
+privileges to this directory. For example if the original file is in
+/home/sergei/FUBAR/data/pol.nex then at the end of a FUBAR run, there
+- __Requirements__: in-frame codon alignment (possibly partitioned) and a phylogenetic tree
+(one per partition)
+- __Citation__: FUBAR: a fast, unconstrained bayesian approximation for inferring
+selection (2013), Mol Biol Evol. 30(5):1196-205
+- __Written by__: Sergei L Kosakovsky Pond
+- __Contact Information__: spond@temple.edu
+- __Analysis Version__: 2.2
+####Choose Genetic Code
+1. [**Universal**] Universal code. (Genebank transl_table=1).
+2. [**Vertebrate-mtDNA**] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+3. [**Yeast-mtDNA**] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+4. [**Mold-Protozoan-mtDNA**] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+5. [**Invertebrate-mtDNA**] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+6. [**Ciliate-Nuclear**] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+7. [**Echinoderm-mtDNA**] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+8. [**Euplotid-Nuclear**] Euplotid Nuclear code. (Genebank transl_table=10).
+9. [**Alt-Yeast-Nuclear**] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+10. [**Ascidian-mtDNA**] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+11. [**Flatworm-mtDNA**] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+12. [**Blepharisma-Nuclear**] Blepharisma Nuclear code. (Genebank transl_table=15).
+13. [**Chlorophycean-mtDNA**] Chlorophycean Mitochondrial Code (transl_table=16).
+14. [**Trematode-mtDNA**] Trematode Mitochondrial Code (transl_table=21).
+15. [**Scenedesmus-obliquus-mtDNA**] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+16. [**Thraustochytrium-mtDNA**] Thraustochytrium Mitochondrial Code (transl_table=23).
+17. [**Pterobranchia-mtDNA**] Pterobranchia Mitochondrial Code (transl_table=24).
+18. [**SR1-and-Gracilibacteria**] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+19. [**Pachysolen-Nuclear**] Pachysolen tannophilus Nuclear Code (transl_table=26).
+20. [**Mesodinium-Nuclear**] Mesodinium Nuclear Code (transl_table=29)
+21. [**Peritrich-Nuclear**] Peritrich Nuclear Code (transl_table=30)
+22. [**Cephalodiscidae-mtDNA**] Cephalodiscidae Mitochondrial UAA-Tyr Code (transl_table=33)
+>Please choose an option (or press q to cancel selection):1
+>Select a coding sequence alignment file (`/Users/fred/Downloads/`) N2_master_TRIMMED.fas
+-------
+>[WARNING] '/Users/fred/Downloads/N2_master_TRIMMED.fas' contains 1
+duplicate sequence. Identical sequences do not contribute any
+information to the analysis and only slow down computation. Please
+consider removing duplicate or 'nearly' duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+>Please select a tree file for the data: (`/Users/fred/Downloads/`) N2_FINAL.tree
+/Users/fred/Downloads/N2_FINAL.tree
+N2_FINAL.tree
+>Loaded a multiple sequence alignment with **620** sequences, **1238** codons, and **1** partitions from `/Users/fred/Downloads/N2_master_TRIMMED.fas`
+Save FUBAR cache to : FUBAR_N2_cache
+>Save the resulting JSON file to (`/Users/fred/Downloads/`) FUBAR_results.json
+> FUBAR will write cache and result files to _/Users/fred/Downloads/N2_master_TRIMMED.fas.FUBAR.cache_ and _/Users/fred/Downloads/N2_master_TRIMMED.fas.FUBAR.json_, respectively 
+> Number of grid points per dimension (total number is D^2) (permissible range = [5,50], default value = 20, integer): 20
+####Posterior estimation method
+1. [**Metropolis-Hastings**] Full Metropolis-Hastings MCMC algorithm (slowest, original 2013 paper implementation)
+2. [**Collapsed-Gibbs**] Collapsed Gibbs sampler (intermediate speed)
+3. [**Variational-Bayes**] 0-th order Variational Bayes approximations (fastest, recommended default)
+>Please choose an option (or press q to cancel selection):3
+> The concentration parameter of the Dirichlet prior (permissible range = [0.001,1], default value = 0.5): 0.5
+####Enforce non-zero synonymous rates on the grid
+1. [**Yes**] The grid will exclude zero synonymous rates, resulting in finite dN/dS values
+2. [**No**] The grid will include zero synonymous rates, resulting in infinite dN/dS values
+>Please choose an option (or press q to cancel selection):1
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+>Use/Save parameter estimates from 'initial-guess' model fits (`/Users/fred/Downloads/`) null
+####Reduce zero-length branches
+1. [**Yes**] Automatically delete internal zero-length branches for computational efficiency (will not affect results otherwise)
+2. [**Constrain**] Keep zero-length branches, but constrain their values to 0
+3. [**No**] Keep all branches
+>Please choose an option (or press q to cancel selection):1
+### Deleted 106 zero-length internal branches: `Node1, Node1003, Node103, Node1041, Node108, Node1080, Node1083, Node1088, Node1112, Node1118, Node112, Node1121, Node1124, Node1125, Node1130, Node1182, Node1191, Node1201, Node1203, Node1206, Node1208, Node128, Node145, Node152, Node155, Node162, Node163, Node168, Node179, Node194, Node199, Node202, Node206, Node237, Node238, Node239, Node270, Node274, Node278, Node282, Node303, Node361, Node370, Node375, Node414, Node418, Node434, Node444, Node446, Node462, Node467, Node472, Node473, Node480, Node484, Node488, Node501, Node556, Node558, Node563, Node581, Node583, Node592, Node594, Node595, Node596, Node611, Node64, Node642, Node679, Node709, Node715, Node716, Node721, Node729, Node734, Node737, Node738, Node739, Node740, Node748, Node750, Node756, Node757, Node763, Node771, Node804, Node810, Node853, Node887, Node89, Node90, Node912, Node932, Node933, Node94, Node947, Node95, Node952, Node954, Node956, Node96, Node969, Node97, Node99, Node998`
+* Log(L) = -78293.82, AIC-c = 159078.99 (1245 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site) 43.867
+* Tree length (expected substitutions/site) for partition 1 :   43.867
+### Computing the phylogenetic likelihood function on the grid 
+* Determining appropriate tree scaling based on the best score from a  20 x 20 rate grid
+* Best scaling achieved for 
+	* synonymous rate =  2.815
+	* non-synonymous rate =  0.500
+* Computing conditional site likelihoods on a 20 x 20 rate grid
+### Running an iterative zeroth order variational Bayes procedure to estimate the posterior mean of rate weights
+* Using the following settings
+	* Dirichlet alpha  : 0.5
+### Tabulating site-level results
+----
+## FUBAR inferred no sites under subject to positive selection at posterior probability >= 0.9
+(paml_env) fred@192 Downloads % 
+
+es
+/home/sergei/FUBAR/data/pol.nex.FUBAR.json,
+/home/sergei/FUBAR/data/pol.nex.fubrar.cache. They also provide
+checkpointing so that a partially completed analysis can be restarted.
+subject to pervasive purifying or diversifying selection. v2.1
+introduces two more methods for estimating the posterior distribution of
+grid weights: collapsed Gibbs MCMC (faster) and 0-th order Variation
+Bayes approximation (fastest). Please note that a FUBAR analysis
+generates a cache and a results JSON file in the same directory as
+directory as the original alignment. HyPhy needs to have write
+privileges to this directory. For example if the original file is in
+/home/sergei/FUBAR/data/pol.nex then at the end of a FUBAR run, there
+- __Requirements__: in-frame codon alignment (possibly partitioned) and a phylogenetic tree
+(one per partition)
+- __Citation__: FUBAR: a fast, unconstrained bayesian approximation for inferring
+selection (2013), Mol Biol Evol. 30(5):1196-205
+- __Written by__: Sergei L Kosakovsky Pond
+- __Contact Information__: spond@temple.edu
+- __Analysis Version__: 2.2
+####Choose Genetic Code
+1. [**Universal**] Universal code. (Genebank transl_table=1).
+2. [**Vertebrate-mtDNA**] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+3. [**Yeast-mtDNA**] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+4. [**Mold-Protozoan-mtDNA**] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+5. [**Invertebrate-mtDNA**] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+6. [**Ciliate-Nuclear**] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+7. [**Echinoderm-mtDNA**] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+8. [**Euplotid-Nuclear**] Euplotid Nuclear code. (Genebank transl_table=10).
+9. [**Alt-Yeast-Nuclear**] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+10. [**Ascidian-mtDNA**] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+11. [**Flatworm-mtDNA**] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+12. [**Blepharisma-Nuclear**] Blepharisma Nuclear code. (Genebank transl_table=15).
+13. [**Chlorophycean-mtDNA**] Chlorophycean Mitochondrial Code (transl_table=16).
+14. [**Trematode-mtDNA**] Trematode Mitochondrial Code (transl_table=21).
+15. [**Scenedesmus-obliquus-mtDNA**] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+16. [**Thraustochytrium-mtDNA**] Thraustochytrium Mitochondrial Code (transl_table=23).
+17. [**Pterobranchia-mtDNA**] Pterobranchia Mitochondrial Code (transl_table=24).
+18. [**SR1-and-Gracilibacteria**] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+19. [**Pachysolen-Nuclear**] Pachysolen tannophilus Nuclear Code (transl_table=26).
+20. [**Mesodinium-Nuclear**] Mesodinium Nuclear Code (transl_table=29)
+21. [**Peritrich-Nuclear**] Peritrich Nuclear Code (transl_table=30)
+22. [**Cephalodiscidae-mtDNA**] Cephalodiscidae Mitochondrial UAA-Tyr Code (transl_table=33)
+>Please choose an option (or press q to cancel selection):1
+>Select a coding sequence alignment file (`/Users/fred/Downloads/`) N2_master_TRIMMED.fas
+-------
+>[WARNING] '/Users/fred/Downloads/N2_master_TRIMMED.fas' contains 1
+duplicate sequence. Identical sequences do not contribute any
+information to the analysis and only slow down computation. Please
+consider removing duplicate or 'nearly' duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+>Please select a tree file for the data: (`/Users/fred/Downloads/`) N2_FINAL.tree
+/Users/fred/Downloads/N2_FINAL.tree
+N2_FINAL.tree
+>Loaded a multiple sequence alignment with **620** sequences, **1238** codons, and **1** partitions from `/Users/fred/Downloads/N2_master_TRIMMED.fas`
+Save FUBAR cache to : FUBAR_N2_cache
+>Save the resulting JSON file to (`/Users/fred/Downloads/`) FUBAR_results.json
+> FUBAR will write cache and result files to _/Users/fred/Downloads/N2_master_TRIMMED.fas.FUBAR.cache_ and _/Users/fred/Downloads/N2_master_TRIMMED.fas.FUBAR.json_, respectively 
+> Number of grid points per dimension (total number is D^2) (permissible range = [5,50], default value = 20, integer): 20
+####Posterior estimation method
+1. [**Metropolis-Hastings**] Full MetrLast login: Wed Oct 29 05:20:17 on ttys000
+(base) fred@192 Downloads % hyphy i-
+Error:
+Could not read batch file '/Users/fred/Downloads/i-'.
+Path stack:
+	/opt/anaconda3/share/hyphy/
+	/Users/fred/Downloads/
+Check errors.log for execution error details.
+(base) fred@192 Downloads % conda activate /opt/miniconda3/envs/paml_env
+(paml_env) fred@192 Downloads % cd ~/Downloads
+(paml_env) fred@192 Downloads % conda config --add channels conda-forge
+Warning: 'conda-forge' already in 'channels' list, moving to the top
+(paml_env) fred@192 Downloads % conda config --add channels bioconda 
+Warning: 'bioconda' already in 'channels' list, moving to the top
+(paml_env) fred@192 Downloads % conda config --set channel_priority strict 
+(paml_env) fred@192 Downloads % conda install hyphy
+2 channel Terms of Service accepted
+Channels:
+ - bioconda
+ - conda-forge
+ - defaults
+Platform: osx-arm64
+Collecting package metadata (repodata.json): done
+Solving environment: done
+==> WARNING: A newer version of conda exists. <==
+    current version: 25.7.0
+    latest version: 25.9.1
+Please update conda by running
+    $ conda update -n base -c conda-forge conda
+# All requested packages already installed.
+(paml_env) fred@192 Downloads % hyphy i-
+Error:
+Could not read batch file '/Users/fred/Downloads/i-'.
+Path stack:
+	/opt/miniconda3/envs/paml_env/share/hyphy/
+	/Users/fred/Downloads/
+Check errors.log for execution error details.
+(paml_env) fred@192 Downloads % hyphy -i
+HYPHY 2.5.84(MP) for Darwin on arm64 ARM Neon SIMD zlib (v1.3.1)
+***************** TYPES OF STANDARD ANALYSES *****************
+	(1) Selection Analyses
+	(2) Evolutionary Hypothesis Testing
+	(3) Relative evolutionary rate inference
+	(4) Coevolutionary analysis
+	(5) Basic Analyses
+	(6) Codon Selection Analyses
+	(7) Compartmentalization
+	(8) Data File Tools
+	(9) Tree File Tools
+	(10) Miscellaneous
+	(11) Model Comparison
+	(12) Molecular Clock
+	(13) Phylogeny Reconstruction
+	(14) Positive Selection
+	(15) Recombination
+	(16) Selection/Recombination
+	(17) Relative Rate
+	(18) Relative Ratio
+ Please select type of analyses you want to list (or press ENTER to process custom batch file):1
+***************** FILES IN 'Selection Analyses' ***************** 
+	(1) [MEME] Test for episodic site-level selection using MEME (Mixed Effects Model of Evolution).
+	(2) [FEL] Test for pervasive site-level selection using FEL (Fixed Effects Likelihood).
+	(3) [SLAC] Test for pervasive site-level selection using SLAC (Single Likelihood Ancestor Counting).
+	(4) [FUBAR] Test for pervasive site-level selection using FUBAR (Fast Unconstrained Bayesian AppRoximation for inferring selection).
+	(5) [BUSTED] Test for episodic gene-wide selection using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+	(6) [aBSREL] Test for lineage-specific evolution using the branch-site method aBS-REL (Adaptive Branch-Site Random Effects Likelihood).
+	(7) [RELAX] Test for relaxation of selection pressure along a specified set of test branches using RELAX (a random effects test of selection relaxation).
+	(8) [FADE] Test a protein alignment for directional selection towards specific amino acids along a specified set of test branches using FADE (a FUBAR Approach to Directional Evolution).
+	(9) [PRIME] 
+	(10) [Error-Filter] Use a BUSTED-E model fit to clean-up a sequence alignment
+	(11)  "[MSS] Fits a model with multiple synonymous rates (MSS model) to several genes jointly."
+	(12)  "[MSS-GA] Perform a Genetic Algorithm search model selection for a codon MSS model on a collection of alignments."
+	(13)  "[MSS-GA-processor] Process results for a genetic algorithm codon MSS model search."
+	(14) [BUSTED-PH] Test if episodic diversifying selection is associated with the set of designated (FG) branches using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+ Please select the analysis you would like to perform (or press ENTER to return to the list of analysis types):4
+Analysis Description
+--------------------
+Perform a Fast Unbiased AppRoximate Bayesian (FUBAR) analysis of a
+coding sequence alignment to determine whether some sites have been
+will also exist FUBAR-generated files
+/home/sergei/FUBAR/data/pol.nex.FUBAR.json,
+/home/sergei/FUBAR/data/pol.nex.fubrar.cache. They also provide
+checkpointing so that a partially completed analysis can be restarted.
+subject to pervasive purifying or diversifying selection. v2.1
+introduces two more methods for estimating the posterior distribution of
+grid weights: collapsed Gibbs MCMC (faster) and 0-th order Variation
+Bayes approximation (fastest). Please note that a FUBAR analysis
+generates a cache and a results JSON file in the same directory as
+directory as the original alignment. HyPhy needs to have write
+privileges to this directory. For example if the original file is in
+/home/sergei/FUBAR/data/pol.nex then at the end of a FUBAR run, there
+- __Requirements__: in-frame codon alignment (possibly partitioned) and a phylogenetic tree
+(one per partition)
+- __Citation__: FUBAR: a fast, unconstrained bayesian approximation for inferring
+selection (2013), Mol Biol Evol. 30(5):1196-205
+- __Written by__: Sergei L Kosakovsky Pond
+- __Contact Information__: spond@temple.edu
+- __Analysis Version__: 2.2
+####Choose Genetic Code
+1. [**Universal**] Universal code. (Genebank transl_table=1).
+2. [**Vertebrate-mtDNA**] Vertebrate mitochondrial DNA code. (Genebank transl_table=2).
+3. [**Yeast-mtDNA**] Yeast mitochondrial DNA code. (Genebank transl_table=3).
+4. [**Mold-Protozoan-mtDNA**] Mold, Protozoan and Coelenterate mitochondrial DNA and the Mycloplasma/Spiroplasma code. (Genebank transl_table=4).
+5. [**Invertebrate-mtDNA**] Invertebrate mitochondrial DNA code. (Genebank transl_table=5).
+6. [**Ciliate-Nuclear**] Ciliate, Dasycladacean and Hexamita Nuclear code. (Genebank transl_table=6).
+7. [**Echinoderm-mtDNA**] Echinoderm mitochondrial DNA code. (Genebank transl_table=9).
+8. [**Euplotid-Nuclear**] Euplotid Nuclear code. (Genebank transl_table=10).
+9. [**Alt-Yeast-Nuclear**] Alternative Yeast Nuclear code. (Genebank transl_table=12).
+10. [**Ascidian-mtDNA**] Ascidian mitochondrial DNA code. (Genebank transl_table=13).
+11. [**Flatworm-mtDNA**] Flatworm mitochondrial DNA code. (Genebank transl_table=14).
+12. [**Blepharisma-Nuclear**] Blepharisma Nuclear code. (Genebank transl_table=15).
+13. [**Chlorophycean-mtDNA**] Chlorophycean Mitochondrial Code (transl_table=16).
+14. [**Trematode-mtDNA**] Trematode Mitochondrial Code (transl_table=21).
+15. [**Scenedesmus-obliquus-mtDNA**] Scenedesmus obliquus mitochondrial Code (transl_table=22).
+16. [**Thraustochytrium-mtDNA**] Thraustochytrium Mitochondrial Code (transl_table=23).
+17. [**Pterobranchia-mtDNA**] Pterobranchia Mitochondrial Code (transl_table=24).
+18. [**SR1-and-Gracilibacteria**] Candidate Division SR1 and Gracilibacteria Code (transl_table=25).
+19. [**Pachysolen-Nuclear**] Pachysolen tannophilus Nuclear Code (transl_table=26).
+20. [**Mesodinium-Nuclear**] Mesodinium Nuclear Code (transl_table=29)
+21. [**Peritrich-Nuclear**] Peritrich Nuclear Code (transl_table=30)
+22. [**Cephalodiscidae-mtDNA**] Cephalodiscidae Mitochondrial UAA-Tyr Code (transl_table=33)
+>Please choose an option (or press q to cancel selection):1
+>Select a coding sequence alignment file (`/Users/fred/Downloads/`) N2_master_TRIMMED.fas
+-------
+>[WARNING] '/Users/fred/Downloads/N2_master_TRIMMED.fas' contains 1
+duplicate sequence. Identical sequences do not contribute any
+information to the analysis and only slow down computation. Please
+consider removing duplicate or 'nearly' duplicate sequences, e.g. using
+https://github.com/veg/hyphy-analyses/tree/master/remove-duplicates
+prior to running selection analyses
+-------
+>Please select a tree file for the data: (`/Users/fred/Downloads/`) N2_FINAL.tree
+/Users/fred/Downloads/N2_FINAL.tree
+N2_FINAL.tree
+>Loaded a multiple sequence alignment with **620** sequences, **1238** codons, and **1** partitions from `/Users/fred/Downloads/N2_master_TRIMMED.fas`
+Save FUBAR cache to : FUBAR_N2_cache
+>Save the resulting JSON file to (`/Users/fred/Downloads/`) FUBAR_results.json
+> FUBAR will write cache and result files to _/Users/fred/Downloads/N2_master_TRIMMED.fas.FUBAR.cache_ and _/Users/fred/Downloads/N2_master_TRIMMED.fas.FUBAR.json_, respectively 
+> Number of grid points per dimension (total number is D^2) (permissible range = [5,50], default value = 20, integer): 20
+####Posterior estimation method
+1. [**Metropolis-Hastings**] Full Metropolis-Hastings MCMC algorithm (slowest, original 2013 paper implementation)
+2. [**Collapsed-Gibbs**] Collapsed Gibbs sampler (intermediate speed)
+3. [**Variational-Bayes**] 0-th order Variational Bayes approximations (fastest, recommended default)
+>Please choose an option (or press q to cancel selection):3
+> The concentration parameter of the Dirichlet prior (permissible range = [0.001,1], default value = 0.5): 0.5
+####Enforce non-zero synonymous rates on the grid
+1. [**Yes**] The grid will exclude zero synonymous rates, resulting in finite dN/dS values
+2. [**No**] The grid will include zero synonymous rates, resulting in infinite dN/dS values
+>Please choose an option (or press q to cancel selection):1
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+>Use/Save parameter estimates from 'initial-guess' model fits (`/Users/fred/Downloads/`) null
+####Reduce zero-length branches
+1. [**Yes**] Automatically delete internal zero-length branches for computational efficiency (will not affect results otherwise)
+2. [**Constrain**] Keep zero-length branches, but constrain their values to 0
+3. [**No**] Keep all branches
+>Please choose an option (or press q to cancel selection):1
+### Deleted 106 zero-length internal branches: `Node1, Node1003, Node103, Node1041, Node108, Node1080, Node1083, Node1088, Node1112, Node1118, Node112, Node1121, Node1124, Node1125, Node1130, Node1182, Node1191, Node1201, Node1203, Node1206, Node1208, Node128, Node145, Node152, Node155, Node162, Node163, Node168, Node179, Node194, Node199, Node202, Node206, Node237, Node238, Node239, Node270, Node274, Node278, Node282, Node303, Node361, Node370, Node375, Node414, Node418, Node434, Node444, Node446, Node462, Node467, Node472, Node473, Node480, Node484, Node488, Node501, Node556, Node558, Node563, Node581, Node583, Node592, Node594, Node595, Node596, Node611, Node64, Node642, Node679, Node709, Node715, Node716, Node721, Node729, Node734, Node737, Node738, Node739, Node740, Node748, Node750, Node756, Node757, Node763, Node771, Node804, Node810, Node853, Node887, Node89, Node90, Node912, Node932, Node933, Node94, Node947, Node95, Node952, Node954, Node956, Node96, Node969, Node97, Node99, Node998`
+* Log(L) = -78293.82, AIC-c = 159078.99 (1245 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site) 43.867
+* Tree length (expected substitutions/site) for partition 1 :   43.867
+### Computing the phylogenetic likelihood function on the grid 
+* Determining appropriate tree scaling based on the best score from a  20 x 20 rate grid
+* Best scaling achieved for 
+	* synonymous rate =  2.815
+	* non-synonymous rate =  0.500
+* Computing conditional site likelihoods on a 20 x 20 rate grid
+### Running an iterative zeroth order variational Bayes procedure to estimate the posterior mean of rate weights
+* Using the following settings
+	* Dirichlet alpha  : 0.5
+### Tabulating site-level results
+----
+## FUBAR inferred no sites under subject to positive selection at posterior probability >= 0.9
+(paml_env) fred@192 Downloads % 
+
+opolis-Hastings MCMC algorithm (slowest, original 2013 paper implementation)
+2. [**Collapsed-Gibbs**] Collapsed Gibbs sampler (intermediate speed)
+3. [**Variational-Bayes**] 0-th order Variational Bayes approximations (fastest, recommended default)
+>Please choose an option (or press q to cancel selection):3
+> The concentration parameter of the Dirichlet prior (permissible range = [0.001,1], default value = 0.5): 0.5
+####Enforce non-zero synonymous rates on the grid
+1. [**Yes**] The grid will exclude zero synonymous rates, resulting in finite dN/dS values
+2. [**No**] The grid will include zero synonymous rates, resulting in infinite dN/dS values
+>Please choose an option (or press q to cancel selection):1
+### Obtaining branch lengths and nucleotide substitution biases under the nucleotide GTR model
+>Use/Save parameter estimates from 'initial-guess' model fits (`/Users/fred/Downloads/`) null
+####Reduce zero-length branches
+1. [**Yes**] Automatically delete internal zero-length branches for computational efficiency (will not affect results otherwise)
+2. [**Constrain**] Keep zero-length branches, but constrain their values to 0
+3. [**No**] Keep all branches
+>Please choose an option (or press q to cancel selection):1
+### Deleted 106 zero-length internal branches: `Node1, Node1003, Node103, Node1041, Node108, Node1080, Node1083, Node1088, Node1112, Node1118, Node112, Node1121, Node1124, Node1125, Node1130, Node1182, Node1191, Node1201, Node1203, Node1206, Node1208, Node128, Node145, Node152, Node155, Node162, Node163, Node168, Node179, Node194, Node199, Node202, Node206, Node237, Node238, Node239, Node270, Node274, Node278, Node282, Node303, Node361, Node370, Node375, Node414, Node418, Node434, Node444, Node446, Node462, Node467, Node472, Node473, Node480, Node484, Node488, Node501, Node556, Node558, Node563, Node581, Node583, Node592, Node594, Node595, Node596, Node611, Node64, Node642, Node679, Node709, Node715, Node716, Node721, Node729, Node734, Node737, Node738, Node739, Node740, Node748, Node750, Node756, Node757, Node763, Node771, Node804, Node810, Node853, Node887, Node89, Node90, Node912, Node932, Node933, Node94, Node947, Node95, Node952, Node954, Node956, Node96, Node969, Node97, Node99, Node998`
+* Log(L) = -78293.82, AIC-c = 159078.99 (1245 estimated parameters)
+* 1 partition. Total tree length by partition (subs/site) 43.867
+* Tree length (expected substitutions/site) for partition 1 :   43.867
+### Computing the phylogenetic likelihood function on the grid 
+* Determining appropriate tree scaling based on the best score from a  20 x 20 rate grid
+* Best scaling achieved for 
+	* synonymous rate =  2.815
+	* non-synonymous rate =  0.500
+* Computing conditional site likelihoods on a 20 x 20 rate grid
+### Running an iterative zeroth order variational Bayes procedure to estimate the posterior mean of rate weights
+* Using the following settings
+	* Dirichlet alpha  : 0.5
+### Tabulating site-level results
+----
+## FUBAR inferred no sites under subject to positive selection at posterior probability >= 0.9
+(paml_env) fred@192 Downloads % 
+
